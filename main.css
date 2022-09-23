@@ -1,4 +1,10 @@
-.test{
-    color: blue;
-    background-color: violet;
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    background-color: black;
 }
