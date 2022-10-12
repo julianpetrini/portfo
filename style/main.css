@@ -4,4 +4,73 @@
   padding: 0;
 }
 
+.background__image {
+  background-image: url(/assets/img/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav__names, .nav__icons {
+  text-decoration: none;
+  font-family: "Hind", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #FFE4E4;
+  font-size: 25px;
+  padding-right: 2.5rem;
+}
+
+.nav__icons {
+  padding-right: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+
+.main__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 7rem;
+}
+
+.main__container__vid {
+  height: 55vh;
+}
+
+.main__video {
+  height: 100%;
+  margin-right: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 9px solid white;
+}
+
+.main__container__text__main {
+  color: #FFE4E4;
+  font-family: "Domine", serif;
+  font-size: 54px;
+}
+
+.main__container__text__sub {
+  color: #FFE4E4;
+  font-family: "Cormorant", serif;
+  font-size: 42px;
+  font-weight: 200;
+}
+
+.arrow__center {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  color: #FFE4E4;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=main.css.map */

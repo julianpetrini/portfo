@@ -5,28 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Porto</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/style/main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="/style/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
     <script src="main.js"></script>
   </head>
 
-  <body>
-   <!--===== HEADER =====-->
-   <header>
-    <nav>
-      <a href="">Home</a>
-      <a href="">About Me</a>
-      <a href="">Projects</a>
-      <a href="">Skills</a>
-      <a href="">Contact</a>
-    </nav>
-    <div class="nav__icons">
-      <a href=""><i class="fa-brands fa-linkedin"></i></a>
-      <a href=""><i class="fa-brands fa-github"></i></a>
-      
-     
-    </div>
-  </header>
- 
+  <body class="background__image">
+    <!--===== HEADER =====-->
+    <header>
+      <nav>
+        <a href="" class="nav__names">Home</a>
+        <a href="" class="nav__names">About Me</a>
+        <a href="" class="nav__names">Projects</a>
+        <a href="" class="nav__names">Skills</a>
+        <a href="" class="nav__names">Contact</a>
+      </nav>
+      <div class="nav__icons">
+        <a href=""><i class="fa-brands fa-linkedin nav__icons"></i></a>
+        <a href=""><i class="fa-brands fa-github nav__icons"></i></a>
+      </div>
+    </header>
+    <!--===== MAIN =====-->
+    <section>
+      <div class="main__container">
+        <div class="main__container__vid">
+          <video autoplay loop muted class="main__video">
+            <source src="assets/video/me.mp4" />
+          </video>
+        </div>
+
+        <div class="main__container__text">
+          <div class="main__container__text__main">
+            <h1>Hello ! I’am <br />Julian Petrini Jäggli</h1>
+          </div>
+          <div class="main__container__text__sub">
+            <h2>< p > my portfolio < /p ></h2>
+          </div>
+        </div>
+      </div>
+
+      <a href="" class="arrow__center">
+        <i class="fa-solid fa-angle-down"></i>
+      </a>
+    </section>
   </body>
 </html>
