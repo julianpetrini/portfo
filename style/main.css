@@ -4,7 +4,12 @@
   padding: 0;
 }
 
-.background__image {
+h1 {
+  color: #FFE4E4;
+  font-family: "Domine", serif;
+}
+
+.background__image__main {
   background-image: url(/assets/img/BG.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,8 +21,13 @@
   font-weight: 500;
   text-transform: capitalize;
   color: #FFE4E4;
-  font-size: 25px;
+  font-size: 22px;
   padding-right: 2.5rem;
+  transition: color 0.5s ease-in-out;
+}
+.nav__names:hover, .nav__icons:hover {
+  color: black;
+  font-weight: bold;
 }
 
 .nav__icons {
@@ -48,7 +58,7 @@ header {
   margin-right: 3rem;
   border-radius: 50%;
   object-fit: cover;
-  border: 9px solid white;
+  border: 5px solid white;
 }
 
 .main__container__text__main {
@@ -64,6 +74,10 @@ header {
   font-weight: 200;
 }
 
+.h2__main {
+  font-size: 40px;
+}
+
 .arrow__center {
   margin-top: 7rem;
   display: flex;
@@ -71,6 +85,72 @@ header {
   color: #FFE4E4;
   font-size: 2rem;
   text-decoration: none;
+  margin-bottom: 3rem;
+}
+
+.background__image__about {
+  background-image: url(/assets/img/BG2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 3rem;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__container__video {
+  height: 43vh;
+}
+
+.about__video {
+  height: 100%;
+  border-radius: 70px;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+.h1_about {
+  font-size: 54px;
+}
+
+.about__container__title {
+  font-family: "Cormorant", serif;
+  color: #FFE4E4;
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.about__container__text {
+  width: 50vh;
+  font-family: "Hind", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #FFE4E4;
+  margin-top: 4rem;
+}
+
+.grid_about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.line {
+  position: relative;
+  top: 35rem;
+  color: #FFE4E4;
+  text-align: right;
+  font-family: "Hind", sans-serif;
+}
+
+hr {
+  height: 1px;
+  background-color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
