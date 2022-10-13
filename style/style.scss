@@ -68,21 +68,24 @@ header{
 }
 
 .main__container__vid{
-    height: 55vh;
+  height: 55vh;
+  width: auto;
 }
 
 .main__video{
     height: 100%;
+    width: auto;
     margin-right: 3rem;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #FFFF;
+    //border: 5px solid #FFFF;
+    box-shadow: 0 30px 40px rgb(0 0 0 / 40%);
 }
 
 .main__container__text__main{
     color: $color1;
     font-family:$font2;
-    font-size: 54px;
+    font-size: 2rem;
 }
 
 .main__container__text__sub{
@@ -92,7 +95,7 @@ header{
     font-weight: 200;
 }
 .h2__main{
-    font-size: 40px;
+    font-size: 1.5rem;
 }
 .arrow__center{
     margin-top: 7rem;
