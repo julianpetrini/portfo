@@ -41,7 +41,7 @@ h1{
 
     &:hover{
        
-        color:black;
+        color:rgb(111, 0, 202);
         font-weight: bold;
         
     }
@@ -53,9 +53,14 @@ h1{
 
 header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 3rem;
+    padding: 1rem 3rem 1rem 3rem;
+    background: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    justify-content: space-around;
+    z-index: 1;
 }
 //MAIN
 
@@ -65,6 +70,7 @@ header{
     align-items: center;
     padding:1rem;
     margin-top: 7rem;
+    height: 70vh
 }
 
 .main__container__vid{
@@ -79,7 +85,7 @@ header{
     border-radius: 50%;
     object-fit: cover;
     //border: 5px solid #FFFF;
-    box-shadow: 0 30px 40px rgb(0 0 0 / 40%);
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.4);
 }
 
 .main__container__text__main{
@@ -121,6 +127,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 4rem;
 }
 .about__container__video{
     height: 43vh;
@@ -154,7 +161,7 @@ header{
 }
 
 .grid_about{
-    padding: 4rem;
+    padding: 2rem 4rem 0 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 4em;
@@ -178,4 +185,16 @@ hr {
 }
 .grid__img__3{
     max-width: 30vw;
+    padding-top: 3rem;
+}
+.icon__img{
+    width: 20px;
+    height: auto;
+    padding: 0 1rem 0 1rem;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    color: $color1;
+    padding: 1rem;
 }
