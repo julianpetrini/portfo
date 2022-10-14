@@ -11,7 +11,6 @@ h1 {
 
 .background__image__main {
   background-image: url(/assets/img/BG.png);
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -137,12 +136,13 @@ header {
 }
 
 .grid_about {
+  padding: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1em;
+  gap: 4em;
 }
 
-.line {
+.line__hello, .line__myportfolio {
   position: relative;
   top: 35rem;
   color: #FFE4E4;
@@ -153,6 +153,14 @@ header {
 hr {
   height: 1px;
   background-color: white;
+}
+
+.line__myportfolio {
+  top: 2rem;
+}
+
+.grid__img__3 {
+  max-width: 30vw;
 }
 
 /*# sourceMappingURL=main.css.map */
