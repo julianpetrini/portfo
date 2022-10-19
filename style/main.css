@@ -26,7 +26,6 @@ h1 {
 }
 .nav__names:hover, .nav__icons:hover {
   color: rgb(111, 0, 202);
-  font-weight: bold;
 }
 
 .nav__icons {
