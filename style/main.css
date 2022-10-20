@@ -170,6 +170,22 @@ hr {
   padding-top: 3rem;
 }
 
+.about__img__container__left, .about__img__container__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.about__img__container__right {
+  align-items: flex-start;
+}
+
+.grid__img__left {
+  max-width: 30%;
+  padding-top: 3rem;
+}
+
 .icon__img {
   width: 20px;
   height: auto;
@@ -181,6 +197,45 @@ hr {
   justify-content: center;
   color: #FFE4E4;
   padding: 1rem;
+}
+
+.about__container__img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects__container {
+  height: 100vh;
+  padding: 2rem;
+}
+
+.projects__container__box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.project__img__preview {
+  max-width: fit-content;
+  max-height: 28vh;
+  border-radius: 15px;
+}
+
+.buttons__card {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project__title__preview {
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
