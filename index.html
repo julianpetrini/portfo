@@ -1,31 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Porto</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="/style/main.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    />
-    <script src="main.js"></script>
-  </head>
 
-  <body class="background__image__main">
-    <!--===== HEADER =====-->
-    <section>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Porto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/style/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <script src="main.js"></script>
+</head>
+
+<body class="background__image__main">
+  <!--===== HEADER =====-->
+  <section>
     <header>
       <nav>
         <a href="" class="nav__names">Home</a>
         <a href="#about" class="nav__names">About Me</a>
-        <a href="" class="nav__names">Projects</a>
+        <a href="#Projects" class="nav__names">Projects</a>
         <a href="" class="nav__names">Skills</a>
         <a href="" class="nav__names">Contact</a>
       </nav>
@@ -35,156 +28,206 @@
       </div>
     </header>
     <!--===== MAIN =====-->
-    
-      <div class="main__container">
-        <div class="main__container__vid">
-          <video autoplay loop muted class="main__video">
-            <source src="assets/video/me.mp4" />
-          </video>
-        </div>
 
-        <div class="main__container__text">
-          <div class="main__container__text__main">
-            <h1>Hello ! I’am <br />Julian Petrini Jäggli</h1>
-          </div>
-          <div class="main__container__text__sub">
-            <h2 class="h2__main">< p > my portfolio < /p ></h2>
-          </div>
-        </div>
-      </div>
-
-      <a href="#about" class="arrow__center">
-        <i class="fa-solid fa-angle-down"></i>
+    <div class="main__container">
+      <div class="main__container__vid">
+        <a href="#about">
+        <video autoplay loop muted class="main__video">
+          <source src="assets/video/me2.mp4" />
+        </video>
       </a>
-    </section>
-
-    <!--===== ABOUT =====-->
-    <section class="grid_about" id="about">
-      <div class="line__hello"><hr> Hello !
       </div>
-      <div class="about__container">
-        <div class="about__container__title">
+
+      <div class="main__container__text">
+        <div class="main__container__text__main">
+          <h1>Hello ! I’am <br />Julian Petrini Jäggli</h1>
+        </div>
+        <div class="main__container__text__sub">
+          <h2 class="h2__main">
+            < p> my portfolio < /p>
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="arrow__center">
+      <i class="fa-solid fa-angle-down"></i>
+    </a>
+  </section>
+
+  <!--===== ABOUT =====-->
+  <section class="grid_about" id="about">
+    <div class="line__hello">
+     <hr> Hello !
+    </div>
+    <div class="about__container">
+      <div class="about__container__title">
         <h1 class="h1_about">About me</h1>
         <h2>just a little bit</h2>
       </div>
-      
-          <div class="about__container__video">
-            <video autoplay loop muted class="about__video">
-              <source src="assets/video/hi.mp4" />
-            </video>
-           
-          </div>
-          <!--<div class="location">
+
+      <div class="about__container__video">
+        <video autoplay loop muted class="about__video">
+          <source src="assets/video/hi.mp4" />
+        </video>
+
+      </div>
+      <!--<div class="location">
             <i class="fa-solid fa-location-dot"></i>
             <img src="/assets/img/Flag_of_Switzerland.svg.png" class="icon__img"alt=""> Zurich Switzerland
           </div>-->
-          <div class="about__container__text">
-            <h2>I'm Julian. Im a swiss and argentinean citizen. I'm in love with the world of ideas and creativity since I can remember. My career was about being a content creator, a customer service agent, a salesman, and many more useful experiences. Furthermore, I was always combining social skills and delivering value. I've managed to work in big companies such as Citibank, GE, and Leo Messi foundation, and also in local stores and freelance projects. I started this path as a video producer while working in sales. This helped me not only to be the one who produces but also the one who sells the idea or project. Throughout this time I've designed logos, created content, and organized teams depending on the needs of the client and the project. While this happened I was always learning new tools to be able to develop all of this. I used Corel Draw in the early beginnings, Adobe Photoshop, and Sony Vegas pro for video editing then went to Premiere Pro and Fl Studio 12 for audio arrangements. 
-              But I felt something was missing. One day I entered the developer field and fell in love right away. A limitless opportunity to create and learn while staying connected to the world we live in.
-              Nowadays I nourish by learning both front and back-end tools such as HTML, CSS, Javascript, PHP, Sass, Laravel, and so on. I've just finished my developer studies in Zurich Opportunity (a Simplon program) and looking for a fresh start where I can deliver all my best. </h2>
-          </div>
-          
-          <a href="#about2" class="arrow__center">
-            <i class="fa-solid fa-angle-down"></i>
-          </a>
-      </div>
-    </section>
-    
-    <section class="grid_about" id="about2">
-
-      
-      <div class="line__myportfolio">
-
-        <p><br>PROJECTS / BRIEF PATH <hr >< p > my portfolio < /p ></p>
-        <div class="about__img__container__left">
-          <img src="/assets/img/BW2011.png" class="grid__img__left" alt="">
-          <img src="/assets/img/PLAN PERRO.png" class="grid__img__left" alt="">
-          <img src="/assets/img/Aru_la_oveja_negra_logo.png" class="grid__img__left" alt="">
-     </div>
-      </div>
-
-      
-      
       <div class="about__container__text">
+        <h2>I'm Julian. Im a swiss and argentinean citizen. I'm in love with the world of ideas and creativity since I
+          can remember.
+          I lived all my life in Buenos Aires, Argentina until I decided to take the leap of faith and go fully into my
+          dreams. Many did not understand why I was leaving all my life to move to Switzerland without even knowing the
+          language but I wanted to know where my roots come from and be the best me. For sure you remember some decision
+          that made you feel alive so, since August 2021, I`ve arrived in Zurich.</h2>
+      </div>
+<!--
+      <a href="#about2" class="arrow__center">
+        <i class="fa-solid fa-angle-down"></i>
+      </a>
+      -->
+
+      <div class="right">
+
+      </div>
+    </div>
+  </section>
+
+  <section class="grid_about" id="about2">
+
+
+    <div class="line__myportfolio">
+
+      <p><br>/ BRIEF PATH
+        <hr>
+        < p> my portfolio < /p>
+      </p>
+      <div class="about__img__container__left">
        
-          <h2>I'm Julian. Im a swiss and argentinean citizen. I'm in love with the world of ideas and creativity since I can remember. My career was about being a content creator, a customer service agent, a salesman, and many more useful experiences. Furthermore, I was always combining social skills and delivering value. I've managed to work in big companies such as Citibank, GE, and Leo Messi foundation, and also in local stores and freelance projects. I started this path as a video producer while working in sales. This helped me not only to be the one who produces but also the one who sells the idea or project. Throughout this time I've designed logos, created content, and organized teams depending on the needs of the client and the project. While this happened I was always learning new tools to be able to develop all of this. I used Corel Draw in the early beginnings, Adobe Photoshop, and Sony Vegas pro for video editing then went to Premiere Pro and Fl Studio 12 for audio arrangements. 
-            But I felt something was missing.  </h2>
-       
-      <div class="grid__img__center">
+        
+      </div>
+    </div>
+
+
+
+    <div class="about__container__text">
+
+      <h2>Last January I was able to enter <a href="https://www.linkedin.com/company/opportunity-z%C3%BCrich/"
+          class="text__link" target="blank"> Opportunity Zurich </a>(a Simplon Web Developer program) until last
+        September. Nowadays looking for my first experience as a web developer in Switzerland while studying German and
+        doing a <a href="https://grow.google/intl/europe/" class="text__link" target="blank">Google UX Design course</a>
+        .
+        All my past career was about being a content creator, a customer service agent, a salesman, and many more useful
+        experiences. Furthermore, I was always combining social skills and delivering value.
+        I've managed to work in big companies such as Citibank, GE, and Leo Messi foundation, and also in local stores
+        and freelance projects.
+
         <div class="about__container__video">
           <video autoplay loop muted class="grid__img__3">
             <source src="assets/video/cafeereel.mp4" />
           </video>
         </div>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, corporis nihil? Tenetur ex quia atque, ullam inventore quisquam esse illo sit necessitatibus minus ut! Rerum temporibus nisi quo deleniti veritatis.</h2>
-        
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, corporis nihil? Tenetur ex quia atque, ullam inventore quisquam esse illo sit necessitatibus minus ut! Rerum temporibus nisi quo deleniti veritatis.</h2>
 
-        <img src="/assets/img/DREAMCLOUD_GITHUB.png" class="grid__img__3" alt="">
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, corporis nihil? Tenetur ex quia atque, ullam inventore quisquam esse illo sit necessitatibus minus ut! Rerum temporibus nisi quo deleniti veritatis.</h2>
+
+        I started as a video producer while working in sales. This helped me not only to be the one who produces but
+        also the one who sells the idea or project. Throughout this time I've designed logos, created content, and
+        organized teams depending on the needs of the client and the project. While this happened I was always learning
+        new tools.
+        <strong>But I felt something was missing. One day I entered the developer field and fell in love right away. A
+          limitless opportunity to create and learn while staying connected to the world we live in. </strong>
+      </h2>
+
+      <div class="grid__img__center">
+
+
 
       </div>
+    </div>
+
+    <div class="about__img__container__right">
+      <!--
+      <img src="/assets/img/BW2011.png" class="grid__img__left" alt="">
+      <img src="/assets/img/PLAN PERRO.png" class="grid__img__left" alt="">
+      <img src="/assets/img/portadavivero.png" class="grid__img__left" alt="">
+      <img src="/assets/img/Aru_la_oveja_negra_logo.png" class="grid__img__left" alt="">
+-->
+    </div>
+
+  </section>
+  <!--PROJECTS-->
+  <section id="Projects">
+    <div class="projects__container">
+      <div class="grid_about">
+
+        <div class="line__myportfolio">
+
+
+          <p><br>/ PROJECTS
+            <hr>
+            < p> some of them < /p>
+          </p>
+        </div>
       </div>
-      
-      <div class="about__img__container__right">
-        <img src="/assets/img/portadavivero.png" class="grid__img__3" alt="">
-       
-      </div>
-      
-    </section>
-<!--PROJECTS-->
-    <section>
-      <div class="projects__container">
-        <div class="about__container">
-          <div class="about__container__title">
+      <div class="about__container">
+
+
+
+
+
+
+
+        <!-- <div class="about__container__title">
+            
           <h1 class="h1_about">Projects</h1>
           <h2>Some of them</h2>
         </div>
+        -->
         <div class="projects__container__box">
-          
+
 
           <div class="project">
-            <h1 class="project__title__preview">BLABLA</h1>
+            <h1 class="project__title__preview">Dreamcloud</h1>
+            <img class="project__img__preview" src="/assets/img/DREAMCLOUD_GITHUB.png" alt="">
+            <div class="buttons__card">
+              <button>visit site</button>
+              <button>view more</button>
+            </div>
+          </div>
+
+          <div class="project">
+            <h1 class="project__title__preview">Big Data | Let's talk</h1>
             <img class="project__img__preview" src="/assets/img/GITHUB PREVIEW PROJECT IMG.png" alt="">
             <div class="buttons__card">
-            <button>visit site</button>
-            <button>view more</button>
+              <button>view more</button>
+            </div>
           </div>
+
+          <div class="project">
+            <h1 class="project__title__preview">The Shelfinator</h1>
+            <img class="project__img__preview" src="/assets/img/THE SHELFINATOR.png" alt="">
+            <div class="buttons__card">
+              <button>view more</button>
+            </div>
           </div>
 
-        <div class="project">
-          <h1 class="project__title__preview">BLABLA</h1>
-          <img class="project__img__preview" src="/assets/img/GITHUB PREVIEW PROJECT IMG.png" alt="">
-          <div class="buttons__card">
-          <button>visit site</button>
-          <button>view more</button>
+          <div class="project">
+            <h1 class="project__title__preview">Photo | Video | Design</h1>
+            <img class="project__img__preview" src="/assets/img/GOODSIP.png" alt="">
+            <div class="buttons__card">
+              <button>view more</button>
+            </div>
+          </div>
+
         </div>
-        </div>
-
-      <div class="project">
-        <h1 class="project__title__preview">BLABLA</h1>
-        <img class="project__img__preview" src="/assets/img/GITHUB PREVIEW PROJECT IMG.png" alt="">
-        <div class="buttons__card">
-        <button>visit site</button>
-        <button>view more</button>
-      </div>
-      </div>
-
-    <div class="project">
-      <h1 class="project__title__preview">BLABLA</h1>
-      <img class="project__img__preview" src="/assets/img/GITHUB PREVIEW PROJECT IMG.png" alt="">
-      <div class="buttons__card">
-      <button>visit site</button>
-      <button>view more</button>
-    </div>
-    </div>
-
-      </div>
-    </section>
-
-    
+  </section>
 
 
 
-  </body>
+
+
+</body>
+
 </html>
