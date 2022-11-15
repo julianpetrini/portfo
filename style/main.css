@@ -193,6 +193,10 @@ hr {
   max-width: 30%;
   padding-top: 3rem;
 }
+.grid__img__left:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
 
 .icon__img {
   width: 20px;
@@ -224,6 +228,7 @@ hr {
   justify-content: center;
   align-items: center;
   max-width: 70vw;
+  margin-top: 2rem;
 }
 
 .project {
@@ -236,6 +241,11 @@ hr {
   max-width: fit-content;
   max-height: 28vh;
   border-radius: 15px;
+}
+.project__img__preview:hover {
+  border-color: yellow;
+  transform: scale(1.02);
+  transition-duration: 0.3s;
 }
 
 .buttons__card {
@@ -262,6 +272,39 @@ hr {
   border-radius: 20px;
   object-fit: cover;
   border: 4px solid rgb(57, 165, 165);
+}
+
+.button__visit__site, .button__repository, .button__view__more {
+  background-color: #5adbb5;
+  color: #e1eff3;
+  border: none;
+  border-radius: 10px;
+  margin-left: 7px;
+  margin-top: 7px;
+  padding: 7px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.7rem;
+  font-family: "Hind", sans-serif;
+  text-transform: uppercase;
+}
+.button__visit__site:hover, .button__repository:hover, .button__view__more:hover {
+  background-color: #000000;
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.button__view__more {
+  background-color: #ffbd03;
+}
+
+.button__repository {
+  background-color: #c548e4;
+}
+
+.b-m {
+  margin-right: 7px;
 }
 
 /*# sourceMappingURL=main.css.map */
