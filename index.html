@@ -11,15 +11,20 @@
   <script src="main.js"></script>
 </head>
 
-<body class="background__image__main">
+<body class="background__image__main" onload="getRandomQuote()">
   <!--===== HEADER =====-->
-  <section>
+  <section class="home">
     <header>
-      <nav>
-        <a href="" class="nav__names">Home</a>
-        <a href="#about" class="nav__names">About Me</a>
+      <nav class="nav_mobile_container">
+        <a href="" class="nav__names ">Home</a>
+        <a href="" class="nav__mobile"><i class="fa-sharp fa-solid fa-house"></i></a>
+        <a href="#about" class="nav__mobile "><i class="fa-solid fa-person"></i></a>
+        <a href="#about" class="nav__names ">About Me</a>
+        <a href="#Projects" class="nav__mobile"><i class="fa-solid fa-rectangle-history"></i></a>
         <a href="#Projects" class="nav__names">Projects</a>
+        <a href="#skills" class="nav__mobile"><i class="fa-solid fa-bars-progress"></i></a>
         <a href="#skills" class="nav__names">Skills</a>
+        <a href="#contact" class="nav__mobile"><i class="fa-solid fa-envelopes-bulk"></i></a>
         <a href="#contact" class="nav__names">Contact</a>
       </nav>
       <div class="nav__icons">
@@ -449,39 +454,47 @@
           </p>
         </div>
       </div>
-      <div class="grid_about">
+      <div class="grid_contact">
         <div class="vertical__container">
 
-          <div class="project">
-            <a href="/assets/img/cv/CV  JPET.pdf" download="Julian Petrini CV">
-              <img class="cv_img" src="/assets/img/cv/CV  JPET.png" alt="">
-              <h1 class="text_bg">Click here for download the CV</h1>
 
-          </div>
+        </div>
+
+        <div class="vertical__container">
+          <a href="/assets/img/cv/CV  JPET.pdf" class="none" download="Julian Petrini CV">
+            <div class="project">
+              <p class="">CV to download</p>
+              <i class="fa-solid fa-file-arrow-down"></i>
+              <!-- <img class="cv_img" src="/assets/img/cv/CV  JPET.png" alt="">-->
+            </div>
           </a>
+        </div>
 
+        <div class="container">
+          <h2>Any ideas, suggestions, ?</h2>
+          <form onsubmit="sendEmail(); reset(); return false;">
+            <label for="name">Name</label>
+            <input type="text" id="n  ame" name="name" placeholder="please fill with your name" required>
+
+            <label for="lname">Email</label>
+            <input type="email" id="email" name="email" placeholder="please enter your email" required>
+
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="internship">Internship</option>
+              <option value="job-offer">Job Offer</option>
+              <option value="ideas">Ideas, suggestions</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Would be nice to hear from you"
+              style="height:200px" required></textarea>
+
+            <input type="submit" value="Submit">
+          </form>
         </div>
         
-        <div class="about__container__text">
-          
-          <h2><i class="fa-solid fa-envelope"></i> <a href="https://www.linkedin.com/company/opportunity-z%C3%BCrich/"
-              class="text__link" target="blank"> julianpetrini@hotmail.com </a>
-            <span class="text_bg"> I started as a video producer while working in sales. This helped me not only to be the
-              one who produces but
-              also the one who sells the idea or project. Throughout this time I've designed logos, created content, and
-              organized teams depending on the needs of the client and the project. While this happened I was always
-              learning
-              new tools.
-              <strong>But I felt something was missing. One day I entered the developer field and fell in love right away. A
-                limitless opportunity to create and learn while staying connected to the world we live in. </strong></span>
-          </h2>
-    
-          <div class="grid__img__center">
-    
-    
-    
-          </div>
-        </div>
+
 
 
       </div>
@@ -489,10 +502,19 @@
 
   </section>
 
+  <footer>
+    <div class="footer__container">
+      <h2 class="text_footer" id="quote"></h2>
+    </div>
+  </footer>
 
 
 
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 
+
+
+  
 </body>
 
 </html>
