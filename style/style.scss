@@ -237,6 +237,7 @@ hr {
     max-width: 30%;
     padding-top: 3rem;
     transition: transform 0.4s;
+    
     &:hover{
         transform: scale(1.1);
         transition-duration: 0.3s;
@@ -279,6 +280,10 @@ hr {
     display: flex;
     flex-direction: column;
     margin: 1rem;
+    color: white;
+    text-align: center;
+    font-family: $font3;
+    font-size: 20px;
    
 }
 
@@ -287,10 +292,7 @@ hr {
     max-height: 28vh;
     border-radius: 15px;
     transition: transform 0.4s;
-
-
-
-
+    transition: 0.5s;
 
     &:hover {
         border-color: yellow;
@@ -321,6 +323,8 @@ hr {
 }
 .text_bg{
     background-color: black;
+    color: white;
+  //  font-family: "Hind", sans-serif;
 
 }
 .video__center{
@@ -398,9 +402,12 @@ margin-right: 7px;
 }
 
 //SKiLLS
+#skills{
+    height:100vh;
+}
 
 .skills__box__container{
-    height: 100vh;
+    @extend .projects__container;
 }
 
 
@@ -416,6 +423,7 @@ margin-right: 7px;
 .project__img__preview__vertical{
     @extend .project__img__preview;
     max-height: 48vh;
+    margin-bottom: 1rem;
 }
 
 .project__dreamcloud{
@@ -438,4 +446,16 @@ margin-right: 7px;
     margin-bottom: 7px;
     margin-top: 7px;
     filter: drop-shadow(0 0 0.5rem rgba(34, 3, 3, 0.295));
+}
+
+.skills__logo__img{
+    @extend .project__img__preview__vertical;
+    max-height: 18vh;
+
+
+    
+}
+.cv_img{
+    
+    max-height: 70vh;
 }

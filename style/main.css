@@ -227,7 +227,7 @@ hr {
   flex-wrap: wrap;
 }
 
-.projects__container {
+.projects__container, .skills__box__container {
   padding: 2rem;
 }
 
@@ -245,15 +245,20 @@ hr {
   display: flex;
   flex-direction: column;
   margin: 1rem;
+  color: white;
+  text-align: center;
+  font-family: "Hind", sans-serif;
+  font-size: 20px;
 }
 
-.project__img__preview, .project__img__preview__dreamcloud, .project__img__preview__vertical {
+.project__img__preview, .project__img__preview__dreamcloud, .project__img__preview__vertical, .skills__logo__img {
   max-width: fit-content;
   max-height: 28vh;
   border-radius: 15px;
   transition: transform 0.4s;
+  transition: 0.5s;
 }
-.project__img__preview:hover, .project__img__preview__dreamcloud:hover, .project__img__preview__vertical:hover {
+.project__img__preview:hover, .project__img__preview__dreamcloud:hover, .project__img__preview__vertical:hover, .skills__logo__img:hover {
   border-color: yellow;
   transform: scale(1.02);
   transition-duration: 0.3s;
@@ -279,6 +284,7 @@ hr {
 
 .text_bg {
   background-color: black;
+  color: white;
 }
 
 .video__center {
@@ -331,7 +337,7 @@ hr {
   margin-right: 7px;
 }
 
-.skills__box__container {
+#skills {
   height: 100vh;
 }
 
@@ -342,8 +348,9 @@ hr {
   flex-wrap: wrap;
 }
 
-.project__img__preview__vertical {
+.project__img__preview__vertical, .skills__logo__img {
   max-height: 48vh;
+  margin-bottom: 1rem;
 }
 
 .project__dreamcloud {
@@ -362,6 +369,14 @@ hr {
   margin-bottom: 7px;
   margin-top: 7px;
   filter: drop-shadow(0 0 0.5rem rgba(34, 3, 3, 0.295));
+}
+
+.skills__logo__img {
+  max-height: 18vh;
+}
+
+.cv_img {
+  max-height: 70vh;
 }
 
 /*# sourceMappingURL=main.css.map */
