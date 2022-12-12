@@ -15,6 +15,13 @@ function sendEmail(){
     );
 }
 
+function darkMode(){
+
+
+    document.getElementByID("darkMode").style.backgroundColor = "red"; 
+    window.setTimeout("yourFunction()",10000);
+}
+
 
 
 function getRandomQuote() {
