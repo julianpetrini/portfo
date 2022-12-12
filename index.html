@@ -13,20 +13,15 @@
 
 <body class="background__image__main" onload="getRandomQuote()">
   <!--===== HEADER =====-->
-  <section class="home">
+  <section class="home" id="home">
     <header>
       <nav class="nav_mobile_container">
         <div class="div__org">
         <a href="" class="nav__names ">Home</a>
-        <a href="" class="nav__mobile"><i class="fa-sharp fa-solid fa-house"></i></a>
         <a href="#about" class="nav__names ">About Me</a>
-        <a href="#about" class="nav__mobile "><i class="fa-solid fa-person"></i></a>
         <a href="#Projects" class="nav__names">Projects</a>
-        <a href="#Projects" class="nav__mobile"><i class="fa-solid fa-rectangle-history"></i></a>
         <a href="#skills" class="nav__names">Skills</a>
-        <a href="#skills" class="nav__mobile"><i class="fa-solid fa-bars-progress"></i></a>
         <a href="#contact" class="nav__names">Contact</a>
-        <a href="#contact" class="nav__mobile"><i class="fa-solid fa-envelopes-bulk"></i></a>
       </nav></div>
       
       <div class="nav__icons">
@@ -37,6 +32,14 @@
     
     </header>
     <!--===== MAIN =====-->
+    <div class="nav__mobile">
+      <a href="#home" class="nav__mobile__text">Home</a>
+      <a href="#about" class="nav__mobile__text">About Me</a>
+      <a href="#Projects" class="nav__mobile__text">Projects</a>
+      <a href="#skills" class="nav__mobile__text">Skills</a>
+      <a href="#contact" class="nav__mobile__text">Contact</a>
+
+    </div>
 
     <div class="main__container">
       <div class="main__container__vid">
@@ -58,9 +61,11 @@
         </div>
       </div>
     </div>
-
+   
+<div class="arrow__container">
     <a href="#about" class="arrow__center">
       <i class="fa-solid fa-angle-down"></i>
+    </div>
     </a>
   </section>
 
@@ -222,16 +227,23 @@
               <img src="/assets/img/skills/LaravelLogo.png" class="skills__logo__button" alt="">
 
             </div>
-            <img class="project__img__preview__dreamcloud" src="/assets/img/DREAMCLOUD_GITHUB.png" alt="">
+            <!--<img class="project__img__preview__dreamcloud" src="/assets/img/DREAMCLOUD_GITHUB.png" alt="">
+            -->
+            <div class="about__container__video mg-1 ">
+              <video autoplay loop muted class="project__img__preview__dreamcloud">
+                <source src="assets/video/dream.mp4" />
+              </video>
+            </div>
+
 
             <div class="buttons__card">
 
-              <div class="buttons__align">
+              <!--<div class="buttons__align">-->
                 <a href="https://github.com/julianpetrini/Dreamcloud" target="blank" class="button__repository"><i
                     class="fa-brands fa-github b-m"></i>Repository</a>
                 <a class="button__visit__site" href="https://dreamcloud.es/" target="blank"><i
-                    class="fa-solid fa-earth-americas b-m"></i> visit site</a>
-                <a class="button__view__more"><i class="fa-solid fa-plus b-m"></i>view more</a>
+                    class="fa-solid fa-earth-americas b-m"></i>site</a>
+                <a class="button__view__more"><i class="fa-solid fa-plus b-m"></i>more</a>
               </div>
             </div>
           </div>
