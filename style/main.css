@@ -213,6 +213,10 @@ hr {
   transition-duration: 0.3s;
   -webkit-filter: drop-shadow(0 30px 40px rgba(0, 0, 0, 0.4));
 }
+.grid__img__left:hover {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
 
 .icon__img {
   width: 20px;
@@ -268,6 +272,11 @@ hr {
   transform: scale(1.02);
   transition-duration: 0.3s;
   box-shadow: 0 30px 40px rgba(0, 0, 0, 0.4);
+}
+.project__img__preview:hover {
+  border-color: yellow;
+  transform: scale(1.02);
+  transition-duration: 0.3s;
 }
 
 .buttons__card {
@@ -649,6 +658,39 @@ input[type=submit]:hover {
     flex-wrap: wrap;
     align-items: center;
   }
+}
+
+.button__visit__site, .button__repository, .button__view__more {
+  background-color: #5adbb5;
+  color: #e1eff3;
+  border: none;
+  border-radius: 10px;
+  margin-left: 7px;
+  margin-top: 7px;
+  padding: 7px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.7rem;
+  font-family: "Hind", sans-serif;
+  text-transform: uppercase;
+}
+.button__visit__site:hover, .button__repository:hover, .button__view__more:hover {
+  background-color: #000000;
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.button__view__more {
+  background-color: #ffbd03;
+}
+
+.button__repository {
+  background-color: #c548e4;
+}
+
+.b-m {
+  margin-right: 7px;
 }
 
 /*# sourceMappingURL=main.css.map */
