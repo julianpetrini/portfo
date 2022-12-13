@@ -307,13 +307,12 @@ hr {
   border: none;
 }
 
-.button__visit__site, .button__repository, .button__view__more {
+.button__visit__site, .button__repository, .button__view__more, .button__view__slides {
   background-color: #0b3d2e;
   color: #e1eff3;
   box-shadow: 0 30px 40px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   margin: 1rem;
-  max-height: 20px;
   padding: 7px 14px;
   text-align: center;
   text-decoration: none;
@@ -323,18 +322,22 @@ hr {
   text-transform: uppercase;
   transition: transform 0.4s;
 }
-.button__visit__site:hover, .button__repository:hover, .button__view__more:hover {
+.button__visit__site:hover, .button__repository:hover, .button__view__more:hover, .button__view__slides:hover {
   background-color: #000000;
   transform: scale(1.1);
   transition-duration: 0.3s;
 }
 
-.button__view__more {
+.button__view__more, .button__view__slides {
   background-color: #ffbd03;
   color: rgb(2, 2, 2);
 }
-.button__view__more:hover {
+.button__view__more:hover, .button__view__slides:hover {
   color: rgb(240, 239, 239);
+}
+
+.button__view__slides {
+  background-color: #5adbb5;
 }
 
 .button__repository {
